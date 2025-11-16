@@ -1,0 +1,20 @@
+/* assets/css/global.css */ /* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add any global CSS overrides here */
+:root{
+    --main-bg-color: #1B1D1A;
+    --text-color-primary: #ffc700;
+    --text-color-secondary: #454852;
+    --text-color-tertiary: #2f3547;
+    --font-family-primary: 'Inter';
+}
+
+/* These kind of CSS global mostly used for dark mode or light mode */
+body{
+    font-family: var(--font-family-primary);
+    color: var(--text-color-primary); /*#000000*/
+    background-color: var(--main-bg-color);
+}

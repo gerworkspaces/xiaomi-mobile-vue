@@ -1,26 +1,53 @@
-# Routing - Automatic Routing by the created from `/pages` folder
+# Author
+- Vo Nguyen Thanh Quang 
+
+npm install dependencies:
+```bash or zsh
+npm install -D tailwindcss postcss autoprefixer
+npm install @pinia/nuxt pinia
+npm install axios
+npm install @heroicons/vue @headlessui/vue
+npm install -D eslint eslint-plugin-vue @typescript-eslint/eslint-plugin @typescript-eslint/parser prettier eslint-config-prettier
+npm install -D vitest @vue/test-utils
+npm install -D cypress
+```
+- Note: Nuxt 3 has first-class support for `pinia` via `@pinia/nuxt`. For HTTP you can use `axios` or the built-in `useFetch/$fetch`. I include `axios` because many teams use it.
+
+## Routing - Automatic Routing by the created from `/pages` folder
+Faster development and cleaner structure
 `/pages`
 `index.vue`
 `login.vue`
 `dashboard.vue`
-## faster development and cleaner structure
 
-# API layer
-`server/api`
+## API layer
+`/server/api`
+`login.ts`
+`users/ts`
 
-# Component Architecture
-`components/...`:
+## Component Architecture
+`/components/...`:
 `headers.vue`
 `footers.vue`
 
-# State Management with Pinia Integrated Automatically
-`@pinia/nuxt`
-`stores/user.ts` (Pinia)
-## Cleaner and easier state logic / (auto-import store setup)
+## State Management with Pinia Integrated Automatically
+- Pinia - Cleaner and easier state logic
+`@pinia/nuxt` (auto-import store setup)
+`/stores`
+`user.ts`
 
-# Route protection
-`middleware/auth.ts`
+## Route protection
+`/middleware`
+`auth.ts`
 
+## Assets
+`/assets`
+`styles/css`
+`images`
+
+## Plugins
+`/plugins`
+`pinia.ts`
 
 # Nuxt Minimal Starter
 
