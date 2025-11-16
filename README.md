@@ -11,6 +11,16 @@ npm install -D eslint eslint-plugin-vue @typescript-eslint/eslint-plugin @typesc
 npm install -D vitest @vue/test-utils
 npm install -D cypress
 ```
+![alt text](slide_img.png)
+![alt text](top_best_selling_product.png)
+![alt text](top_product.png)
+![alt text](footer.png)
+![alt text](responsive_mb.png)
+![alt text](mb2.png)
+![alt text](mb3.png)
+![alt text](mb4.png)
+![alt text](mb5.png)
+
 - Note: Nuxt 3 has first-class support for `pinia` via `@pinia/nuxt`. For HTTP you can use `axios` or the built-in `useFetch/$fetch`. I include `axios` because many teams use it.
 
 ## Routing - Automatic Routing by the created from `/pages` folder
