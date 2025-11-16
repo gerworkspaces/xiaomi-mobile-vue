@@ -30,9 +30,9 @@ export default defineNuxtConfig({
   imports: {
     autoImport: true
   },
-  ssr: false,
+  ssr: true,
   nitro: {
-    preset: 'node-server',
+    preset: 'vercel',
   },
   css: ['~/assets/css/main.css' , "@/assets/css/global.css"],
   // build: {
